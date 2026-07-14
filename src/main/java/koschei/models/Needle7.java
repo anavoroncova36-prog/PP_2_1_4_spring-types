@@ -9,7 +9,7 @@ public class Needle7 {
     private Deth8 death;
 
     @Autowired
-    public void setDeath(Deth8 death) {
+    public Needle7(Deth8 death) {
         this.death = death;
     }
 
